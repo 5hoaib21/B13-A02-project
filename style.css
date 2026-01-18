@@ -159,3 +159,48 @@
   gap: 10px;
   margin-top: 20px;
 }
+
+/* banner section  */
+.about-content {
+  background-color: #1a0b2e;
+  height: 646px;
+  width: 100%;
+
+  padding: 50px 200px 120px;
+}
+
+.about-section {
+  color: white;
+  /* border: 1px solid tomato; */
+  text-align: center;
+}
+
+.about-section > h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.about-section > p {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.rank-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+}
+
+.rank-section h3 {
+  color: #00ff88;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.rank-section p {
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
