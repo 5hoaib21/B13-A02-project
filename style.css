@@ -269,7 +269,7 @@
 
 .featured-container {
   background-color: #1a0b2e;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   height: 1300px;
   padding: 120px 200px;
 }
@@ -280,7 +280,7 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 50px;
-  border: 3px solid aliceblue;
+  /* border: 3px solid aliceblue; */
 }
 
 .featured-box {
@@ -288,14 +288,21 @@
   background-color: #250d44;
   width: 380px;
   height: 450px;
+  border-radius: 20px;
+
+  /* visibility: hidden; */
+
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
 }
 
 .featured-card-description {
   color: white;
+  padding-top: 20px;
 }
 
 .featured-card-description h5 {
-  border: 1px solid aquamarine;
+  /* border: 1px solid aquamarine; */
   font-size: 24px;
   font-weight: bold;
 
@@ -312,8 +319,84 @@
 }
 
 .featured-footer {
+  border: 1px solid red;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
+}
+.featured-footer p {
+  color: #00ff88;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+/* host section  */
+.host-content {
+  /* border: 1px solid lightsalmon; */
+  height: 380px;
+  margin-top: 120px;
+}
+.host-heading {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.host-img {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.host-story {
+  /* border: 1px solid red; */
+  background-color: #250d44;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.host-speak {
+  /* display: flex;
+  justify-content: center; */
+
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.host-speak h4 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.host-speak p {
+  color: #ffffff60;
+  margin-bottom: 16px;
+}
+
+.host-link {
+  size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.hst-img {
+  background-color: #1a0b2e;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #533c72;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
