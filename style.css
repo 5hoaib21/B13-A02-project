@@ -72,6 +72,7 @@
   background-image: url("./assets/hero-bg.png");
   background-size: cover;
   background-position: center;
+  /* padding-top: 5 0px; */
 }
 .hero-content {
   /* border: 2px solid green; */
@@ -86,26 +87,28 @@
 
 .circle-box {
   /* margin: 101px 525px; */
+  /* border: 2px solid green; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-/* .circle-point {
-} */
-.img-one {
-  height: 350px;
-  width: 350px;
+.circle-point {
+  /* border: 2px solid green; */
   position: relative;
+}
+.img-one {
+  /* height: 350px; */
+  /* width: 350px; */
 }
 
 .img-two {
   /* size: 230px; */
   position: absolute;
   /* top: 50%; */
-
-  left: 45.5%;
-  top: 14.5%;
+  left: 14.3rem;
+  top: 5.1rem;
 }
 
 .hero-text {
@@ -203,4 +206,12 @@
   color: white;
   font-size: 16px;
   font-weight: 200;
+}
+
+/* choose section style / */
+.choose-container {
+  background-color: #230e3d;
+  width: 100%;
+  height: 1121px;
+  color: white;
 }
