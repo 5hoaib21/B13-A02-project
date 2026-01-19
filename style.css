@@ -100,7 +100,7 @@
 }
 
 .circle-badge {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato;   */
   background-color: #00ff88;
   position: absolute;
   width: 75px;
@@ -112,6 +112,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  /* box-shadow: #000000; */
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .circle-badge p {
   color: #000000;
@@ -306,10 +310,10 @@
 }
 
 .featured-box {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   background-color: #250d44;
   width: 380px;
-  height: 450px;
+  height: 470px;
   border-radius: 20px;
 
   /* visibility: hidden; */
@@ -341,13 +345,18 @@
 }
 
 .featured-footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.flex-box {
+  display: flex;
+  gap: 15px;
 }
 .featured-footer p {
   color: #00ff88;
