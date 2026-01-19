@@ -98,6 +98,27 @@
   /* border: 2px solid green; */
   position: relative;
 }
+
+.circle-badge {
+  border: 2px solid tomato;
+  background-color: #00ff88;
+  position: absolute;
+  width: 75px;
+  height: 38px;
+  padding: 8px 16px;
+  margin-left: 370px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.circle-badge p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
 /* .img-one {
   height: 350px; 
    width: 350px;
