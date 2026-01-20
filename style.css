@@ -599,6 +599,12 @@ footer {
     padding-bottom: 30px;
     padding-top: 30px;
   }
+  .featured-box {
+    width: 460px;
+  }
+  .ifreme {
+    width: 460px;
+  }
   .flex-box {
     display: flex;
     flex-direction: column;
@@ -643,5 +649,16 @@ footer {
   }
   .img-two {
     padding-top: 70px;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .copyright-content {
+    font-size: 15px;
   }
 }
