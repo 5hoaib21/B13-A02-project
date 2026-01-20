@@ -356,7 +356,9 @@
 
 .flex-box {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 .featured-footer p {
   color: #00ff88;
@@ -431,6 +433,7 @@
   justify-content: center;
   align-items: center;
 }
+/* footer style  */
 
 footer {
   background-image: url(./assets/footer-bg.png);
@@ -474,4 +477,10 @@ footer {
   text-align: center;
   margin-top: 32px;
   color: #ffffff60;
+}
+
+/* --------------------------------- */
+/* MEDIA QUERY SMALL DEVICE (MOBILE-DEVICE)  */
+
+@media (max-width: 576px) {
 }
